@@ -1,6 +1,7 @@
 # Fastify Sequelize Plugin
 
 ```typescript
+import * as fp from 'fastify-plugin';
 import { fastifySequelize } from 'fastify-sequelize-plugin';
 
 const fastifySequelizeOptions: FastifySequelizeOptions<HttpServer, RawRequest, RawResponse> = {
